@@ -29,7 +29,7 @@ const Dashboard = () => {
                
                   <a
                     href="/about"
-                    className="group relative px-6 py-3 rounded-2xl bg-gradient-to-r from-purple-600 to-purple-700 text-white font-medium text-sm tracking-wide transition-all duration-500 hover:from-purple-700 hover:to-purple-800 hover:scale-110 hover:shadow-xl hover:shadow-purple-500/30 transform-gpu"
+                    className="group relative px-3 py-3 rounded-2xl bg-gradient-to-r from-blue-800  to-blue-900 text-white font-medium text-sm tracking-wide transition-all duration-500 border-2 border-blue-800 hover:from-blue-400 hover:border-purple-200 hover:border-2 hover:to-blue-500 hover:scale-110 hover:shadow-xl hover:shadow-purple-500/30 transform-gpu"
                     style={{textDecoration: 'none'}}
                   >
                     <span className="relative z-10">About Us</span>
@@ -39,7 +39,7 @@ const Dashboard = () => {
 
                   <a
                     href="/contact"
-                    className="group relative px-6 py-3 rounded-2xl bg-gradient-to-r from-purple-600 to-purple-700 text-white font-medium text-sm tracking-wide transition-all duration-500 hover:from-purple-700 hover:to-purple-800 hover:scale-110 hover:shadow-xl hover:shadow-purple-500/30 transform-gpu"
+                    className="group relative px-3 py-3 rounded-2xl bg-gradient-to-r from-blue-800  to-blue-900 text-white font-medium text-sm tracking-wide transition-all duration-500 border-2 border-blue-800 hover:from-blue-400 hover:border-purple-200 hover:border-2 hover:to-blue-500 hover:scale-110 hover:shadow-xl hover:shadow-purple-500/30 transform-gpu"
                     style={{textDecoration: 'none'}}
                   >
                     <span className="relative z-10">Contact</span>
@@ -110,8 +110,8 @@ const Dashboard = () => {
                       <button
                           className={`group relative px-6 py-2 rounded-xl font-semibold text-lg tracking-wide transition-all duration-500 transform hover:scale-110 hover:-translate-y-1 ${
                               isDark
-                                  ? 'bg-gradient-to-r from-blue-600 to-blue-800 text-white hover:from-blue-500 hover:to-cyan-500 hover:shadow-xl hover:shadow-blue-500/30'
-                                  : 'bg-gradient-to-r from-blue-600 to-blue-700 text-white hover:from-blue-700 hover:to-blue-800 hover:shadow-xl hover:shadow-blue-600/80'
+                                  ? 'bg-gradient-to-r from-gray-800 to-gray-900 border-2 border-gray-600 text-white hover:from-gray-600 hover:to-gray-700 hover:shadow-xl hover:shadow-blue-500/30'
+                                  : 'bg-gradient-to-r from-blue-700 to-blue-800 text-white hover:from-blue-700 hover:to-blue-800 hover:shadow-xl hover:shadow-blue-600/80'
                           }`}
                           onClick={() => (window.location.href = '/login')}
                       >
