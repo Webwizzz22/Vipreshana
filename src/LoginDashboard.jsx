@@ -119,6 +119,7 @@ const LoginDashboard = () => {
                 >
                     {isDark ? '☀️' : '🌙'}
                 </button>
+                handled inside the code only
                 */}
                 {/* User Profile Circle */}
                 {user && (
